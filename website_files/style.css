@@ -1,0 +1,113 @@
+body, html{
+
+height:100%;
+margin:0;
+font-size:16px;
+font-family:"Caviar Dreams" , sans-serif;
+font-weight:400;
+line-height:1.8em;
+color:#666;
+}
+
+
+.img1, .img2, .img3{
+
+position: relative;
+opacity: 0.70;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+
+/*
+for the parallax effect
+*/
+
+background-attachment: fixed;
+
+
+}
+
+.img1
+{
+
+background-image: url('bokeh-city-dark-9044.jpg');
+min-height: 100%;
+
+}
+
+.img2
+{
+
+background-image: url('buildings-city-cityscape-417192.jpg');
+min-height: 400px
+
+
+}
+
+.img3
+{
+
+background-image: url('architecture-blur-bokeh-240225.jpg');
+min-height: 400px;
+
+}
+
+
+.section{
+text-align: center;
+padding:50px 80px;
+
+
+}
+
+.section1{
+
+background-image: url('IMG_20180727_001437_216.jpg');
+background-position: left;
+background-size: contain;
+background-repeat: no-repeat;
+background-origin:border-box;
+
+  background-color:#f4f4f4
+  color:#666;
+}
+
+.section2{
+
+  background-color:#282e34;
+  color:#ddd;
+}
+
+
+.ptext
+{
+
+  position:absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color:#000;
+  font-size: 27px;
+  letter-spacing: 10px;
+
+}
+
+
+
+
+.ptext .border{
+
+
+  background-color: #111;
+  color:#fff;
+  padding:10px;
+
+
+}
+
+h1{
+
+
+  font-size: 28px;
+  color: #000;
+}
